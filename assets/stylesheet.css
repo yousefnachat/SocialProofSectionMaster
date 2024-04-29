@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  width: 100%;
+  background-image: url(../images/bg-pattern-bottom-desktop.svg);
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info {
+  margin-bottom: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: -48px;
+}
+.info .desription h1,
+p {
+  padding: 20px 10px;
+}
+.info .desription h1 {
+  font-size: 54px;
+  color: hsl(300, 43%, 22%);
+}
+.info .desription p {
+  font-size: 18px;
+  line-height: 30px;
+  color: hsl(303, 10%, 53%);
+}
+.desription {
+  width: 40%;
+}
+.feedback {
+  width: 28%;
+}
+.first-feed,
+.second-feed,
+.third-feed {
+  display: flex;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.first-feed {
+  position: relative;
+  left: 150px;
+}
+.second-feed {
+  position: relative;
+  left: 200px;
+}
+.third-feed {
+  position: relative;
+  left: 250px;
+}
+.stars {
+  margin-left: 20px;
+}
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.first-card,
+.second-card,
+.third-card {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px;
+  border-radius: 10px;
+  height: 88%;
+  max-width: 25%;
+  flex: 25%;
+  background-color: hsl(300, 43%, 22%);
+}
+.second-card {
+  position: relative;
+  bottom: -40px;
+}
+.third-card {
+  position: relative;
+  bottom: -80px;
+}
+.profile1,
+.profile2,
+.profile3 {
+  margin: 36px 0;
+  display: flex;
+  align-items: center;
+}
+.card img {
+  margin-left: 30px;
+  border-radius: 100%;
+  height: 50px;
+}
+.card p {
+  line-height: 22px;
+  padding: 0 33px;
+  margin-bottom: 5px;
+  color: hsl(300, 24%, 96%);
+  font-size: 15px;
+}
+.nameVerfication p {
+  padding: 0 30px;
+}
+.verfication {
+  color: hsl(333, 80%, 67%) !important;
+}
+@media screen and (max-width: 375px) {
+
+  .info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .info p,h1{
+    text-align: center;
+  }
+  h1{
+    font-size: 37px !important;
+  }
+  .desription {
+    width: 100%;
+  }
+  .feedback {
+    height: 220px;
+    width: 90%;
+  margin-left: 18px;
+  }
+  .first-feed,
+  .second-feed,
+  .third-feed {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+  }
+  .stars{
+    margin-top: 10px;
+  }
+  .card {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .first-card,
+  .second-card,
+  .third-card {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    flex: 100%;
+    margin: 10px 30px;
+    bottom: 0;
+  }
+  .profile1,
+  .profile2,
+  .profile3 {
+    margin: 15px 0;
+  }
+  .card p{
+    margin: 10px 0;
+  }
+  .container{
+    position: relative;
+    bottom: 0;
+    height: 100%;
+  }
+  .text{
+    margin: 15px 0 24px 0 !important; 
+  }
+}
